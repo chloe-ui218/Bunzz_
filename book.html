@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Book a Table</title>
+</head>
+<body>
+    <header>
+        <div class="flex lg:flex-row flex-col items-center bg-[#474747] text-white gap-3 py-2">
+            <div class="flex lg:w-6/12 lg:pl-5 lg:flex-row flex-col gap-3 ">
+                <div class="flex justify-center items-center gap-2">
+                    <i class="fa-solid fa-mobile"></i>
+                    <p>(414) 857 - 0107</p>
+                </div>
+                <div class="flex justify-center items-center gap-2">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>yummy@bistrobliss</p>
+                </div>
+            </div>
+    
+            <div class="flex lg:w-5/12 lg:flex-row flex-col justify-end items-center">
+                <div class="flex justify-center items-center gap-2">
+                    <a href="">
+                        <div class="flex justify-center items-center h-[40] w-[40] rounded-full bg-gray-400"><i
+                                class="fa-brands fa-instagram"></i></div>
+                    </a>
+                    <a href="">
+                        <div class="flex justify-center items-center h-[40] w-[40] rounded-full bg-gray-400"><i
+                                class="fa-brands fa-x-twitter"></i></div>
+                    </a>
+                    <a href="">
+                        <div class="flex justify-center items-center h-[40] w-[40] rounded-full bg-gray-400"><i
+                                class="fa-brands fa-facebook-f"></i></div>
+                    </a>
+                    <a href="">
+                        <div class="flex justify-center items-center h-[40] w-[40] rounded-full bg-gray-400"><i
+                                class="fa-brands fa-tiktok"></i></div>
+                    </a>
+                    <a href=""></a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="flex lg:flex-row flex-col  items-center gap-2 pb-2">
+            <div class="flex w-3/12 justify-center items-center">
+                <a href="">
+                    <img class="h-24" src="./picture/logo.png" alt="">
+                </a>
+            </div>
+    
+            <div class="flex lg:w-7/12 justify-center items-center">
+                <ul class="flex gap-4 justify-center items-center">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./About.html">About</a></li>
+                    <li><a href="./menu.html">Menu</a></li>
+                    <li><a href="">Pages</a></li>
+                    <li><a href="./Contact.html">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div class="flex lg:w-2/12 justify-center items-center py-2">
+                <a class="" href="##">
+                    <button class="border-2 border-black p-1 rounded-full p-2 px-3">Book A Table</button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+   <main class="booking flex flex-col justify-center">
+    <div class="booking-main-header">
+    <h1 class="flex justify-center text-6xl font-awesome">Book A Table</h1>
+    <p class="flex justify-center text-md pt-4 pl-5 text-gray-600">We consider all the drivers of change gives you the components <br> you need to change to create a truly happens.</p>
+</div> <br>
+
+<div class="booking-form lg:absolute lg:w-full w-11/12 flex justify-center items-center pl-[55px] lg:pl-[80px] lg:pb-[300px]">
+    <form class="bg-white bg-opacity-500 blend-hard-light border-2 border-gray-50 bg-opacity-90 p-8 rounded-lg shadow-lg max-w-md w-full lg:w-[680px] b">
+        <div class="flex flex-wrap -mx-2 mb-4">
+            <div class="w-full md:w-1/2 px-2 mb-4 md:mb-0">
+                <label for="date" class="block text-gray-700 font-bold">Date</label>
+                <input type="date" id="date" class="w-full px-3 py-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div class="w-full md:w-1/2 px-2">
+                <label for="time" class="block text-gray-700 font-bold">Time</label>
+                <input type="time" class="w-full px-3 py-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+        </div>
+        <div class="flex flex-wrap -mx-2 mb-4">
+            <div class="w-full md:w-1/2 px-2 mb-4 md:mb-0">
+                <label for="name" class="block text-gray-700 font-bold">Name</label>
+                <input type="text" id="name" class="w-full px-3 py-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Enter your name">
+            </div>
+            <div class="w-full md:w-1/2 px-2">
+                <label for="phone" class="block text-gray-700 font-bold">Phone</label>
+                <input type="tel" id="phone" class="w-full px-3 py-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Enter your phone number">
+            </div>
+        </div>
+        <div class="flex flex-wrap -mx-2 mb-4">
+            <div class="w-full px-2">
+                <label for="guests" class="block text-gray-700 font-bold">Total Person</label>
+                <input type="number" id="guests" class="w-full px-3 py-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500" value="1">
+            </div>
+        </div>
+        <div class="button-container flex justify-center">
+            <button type="submit" class="w-full lg:w-11/12 md:w-auto bg-red-500 text-white py-2 px-4 
+            rounded-full hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500">Book A Table</button>
+        </div>
+    </form>
+</div>
+<div class="map-container lg:w-full pt-[110px]  left-[-187px]">
+    <img src="./picture/map-2.png" alt="">
+</div>
+</div>
+   </main>
+
+   <footer class="flex flex-col bg-[#474747] h-auto text-white items-center justify-center">
+    <div class="flex flex-col lg:flex-row w-full justify-center mt-5 p-10 gap-4 border-b-2 border-[gray]">
+        <div class="flex flex-col lg:w-4/12 w-full gap-4">
+            <a href="">
+                <h1 class="font-bold text-4xl">
+                    <img class="h-24" src="./picture/logo.png" alt="">
+                </h1>
+            </a>
+            <p class="font-thin text-sm">In the new era of technology we look a in the future with certainty
+                and pride to for our company and.
+            </p>
+            <div class="flex flex-row items-center gap-2">
+                <span class="border border-red-800 bg-red-800 rounded-full">
+                    <a href="">
+                        <i class="fa-brands fa-instagram p-2"></i>
+                    </a>
+                </span>
+                <span class="border border-red-800 bg-red-800 rounded-full">
+                    <a href="">
+                        <i class="fa-brands fa-facebook p-2"></i>
+                    </a>
+                </span>
+                <span class="border border-red-800 bg-red-800 rounded-full">
+                    <a href="">
+                        <i class="fa-brands fa-x-twitter p-2"></i>
+                    </a>
+                </span>
+                <span class="border border-red-800 bg-red-800 rounded-full">
+                    <a href="">
+                        <i class="fa-brands fa-tiktok p-2"></i>
+                    </a>
+                </span>
+            </div>
+        </div>
+
+        <div class="lg:w-4/12 w-full flex lg:flex-row lg:flex-nowrap flex-wrap ml-10">
+            <div class="w-1/2 text-gray-200 font-[400] font-thin">
+                <p class="text-white text-lg font-semibold pb-9">Pages</p>
+                <ul class="flex flex-col gap-3">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./About.html">About</a></li>
+                    <li><a class="" href="./menu.html">Menu</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="./Blog.html">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a class="" href="">Delivery</a></li>
+                </ul>
+            </div>
+
+            <div class="w-1/2 text-gray-200 font-[400]">
+                <p class="text-white text-lg font-semibold pb-9">Utility Pages</p>
+                <ul class="flex flex-col gap-3">
+                    <li><a href="">Start Here</a></li>
+                    <li><a href="">Styleguide</a></li>
+                    <li><a href="">Password Protected</a></li>
+                    <li><a href="">404 Not Found</a></li>
+                    <li><a href="">Licenses</a></li>
+                    <li><a href="">Changelog</a></li>
+                    <li><a href="">View More</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="flex w-full lg:w-3/12 flex-col gap-2">
+            <h1 class="flex justify-center items-center">Follow Us On Instagram</h1>
+            <div class="flex flex-row gap-2">
+                <div class="flex flex-col gap-2">
+                    <div class="flex">
+                        <img class="rounded-md" src="./picture/pic-2.jpg" alt="">
+                    </div>
+                    <div class="flex">
+                        <img class="rounded-md" src="./picture/pic2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <div class="flex">
+                        <img class="rounded-md" src="./picture/pic2.jpg" alt="">
+                    </div>
+                    <div class="flex">
+                        <img class="rounded-md" src="./picture/pic1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex">
+        <p class="font-thin text-sm pt-5 pb-10">Bunz &copy; 2024. All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+</html>

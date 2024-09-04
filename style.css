@@ -1,0 +1,43 @@
+.background-1{
+    background-image: url(./picture/BG-img.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.gold{
+    color: #f4d03f;
+}
+.red{
+    color: red;
+}
+.button-2{
+    background-color: rgb(222, 17, 17);
+}
+.button-3{
+    background-color: white;
+}
+.button-col p{
+    font-family: playfair display;
+  }
+  .test2{
+    gap: 60px;
+  }
+  .blog-1{
+    border-radius: 30px;
+    width: fit-content;
+  }
+  .blog-1 img{
+   border-radius: 20px 20px 0px 0px;
+  }
+  .section-7{
+    padding-left: 40px;
+  }
+  .blog{
+    width: 636px;
+    height: 732px;
+    top: 128px;
+    left: 1px;
+  }
+  .article{
+    font-family: playfair display;
+  }
